@@ -64,10 +64,6 @@
     RSCenterViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.border.backgroundColor = [UIColor whiteColor];
-    
-    cell.border.layer.borderColor = [UIColor lightGrayColor].CGColor;
-    cell.border.layer.borderWidth = 1;
     
     return cell;
 }

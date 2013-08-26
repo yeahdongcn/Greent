@@ -10,6 +10,4 @@
 
 @interface RSCenterViewCell : UITableViewCell
 
-@property (nonatomic, weak) IBOutlet UIView *border;
-
 @end
