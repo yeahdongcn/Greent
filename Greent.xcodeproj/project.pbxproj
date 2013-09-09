@@ -12,6 +12,8 @@
 		D0513AC817CAF73E0088EF1D /* RSLeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513AC717CAF73E0088EF1D /* RSLeftViewCell.m */; };
 		D0513ACB17CAF7560088EF1D /* RSRightViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513ACA17CAF7560088EF1D /* RSRightViewCell.m */; };
 		D0513AD117CB40540088EF1D /* Brands.json in Resources */ = {isa = PBXBuildFile; fileRef = D0513AD017CB3E7F0088EF1D /* Brands.json */; };
+		D0513AD417CB44160088EF1D /* RSBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513AD317CB44160088EF1D /* RSBrand.m */; };
+		D0513AD617CDA88E0088EF1D /* Versions.json in Resources */ = {isa = PBXBuildFile; fileRef = D0513AD517CDA88E0088EF1D /* Versions.json */; };
 		D07B8CB417C35D79001899DF /* RSSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CB317C35D79001899DF /* RSSidePanelController.m */; };
 		D07B8CB717C364C8001899DF /* RSCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CB617C364C8001899DF /* RSCenterViewController.m */; };
 		D07B8CBA17C364D2001899DF /* RSLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CB917C364D2001899DF /* RSLeftViewController.m */; };
@@ -53,6 +55,9 @@
 		D0513AC917CAF7560088EF1D /* RSRightViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRightViewCell.h; sourceTree = "<group>"; };
 		D0513ACA17CAF7560088EF1D /* RSRightViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRightViewCell.m; sourceTree = "<group>"; };
 		D0513AD017CB3E7F0088EF1D /* Brands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Brands.json; sourceTree = "<group>"; };
+		D0513AD217CB44160088EF1D /* RSBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBrand.h; sourceTree = "<group>"; };
+		D0513AD317CB44160088EF1D /* RSBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBrand.m; sourceTree = "<group>"; };
+		D0513AD517CDA88E0088EF1D /* Versions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Versions.json; sourceTree = "<group>"; };
 		D07B8CB217C35D79001899DF /* RSSidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSidePanelController.h; sourceTree = "<group>"; };
 		D07B8CB317C35D79001899DF /* RSSidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSidePanelController.m; sourceTree = "<group>"; };
 		D07B8CB517C364C8001899DF /* RSCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCenterViewController.h; sourceTree = "<group>"; };
@@ -167,7 +172,10 @@
 				D0B19AC317C1B373007CBD64 /* Supporting Files */,
 				D0BC80DE17C6EC72003E114B /* UIColor+Hex.h */,
 				D0BC80DF17C6EC72003E114B /* UIColor+Hex.m */,
+				D0513AD217CB44160088EF1D /* RSBrand.h */,
+				D0513AD317CB44160088EF1D /* RSBrand.m */,
 				D0513AD017CB3E7F0088EF1D /* Brands.json */,
+				D0513AD517CDA88E0088EF1D /* Versions.json */,
 			);
 			path = Greent;
 			sourceTree = "<group>";
@@ -284,6 +292,7 @@
 				D0B19AD517C1B373007CBD64 /* Images.xcassets in Resources */,
 				D0B19AC717C1B373007CBD64 /* InfoPlist.strings in Resources */,
 				D0B19AD017C1B373007CBD64 /* Main.storyboard in Resources */,
+				D0513AD617CDA88E0088EF1D /* Versions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +352,7 @@
 				D07B8CB417C35D79001899DF /* RSSidePanelController.m in Sources */,
 				D0513AC517CAF31D0088EF1D /* RSCenterViewCell.m in Sources */,
 				D0B19AC917C1B373007CBD64 /* main.m in Sources */,
+				D0513AD417CB44160088EF1D /* RSBrand.m in Sources */,
 				D0BC80E017C6EC72003E114B /* UIColor+Hex.m in Sources */,
 				D07B8CBD17C364DB001899DF /* RSRightViewController.m in Sources */,
 				D0B19ACD17C1B373007CBD64 /* RSAppDelegate.m in Sources */,

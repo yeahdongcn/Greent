@@ -3,7 +3,7 @@
  "brand_id": 1,
  "brand_name": "NIKE",
  "brand_logo_normal": "",
- "brand_logo_selected" : "",
+ "brand_logo_selected": "",
  "brand_color_normal": "0xffff0000",
  "brand_color_selected": "0xff0000ff"
  },
@@ -11,7 +11,7 @@
  "brand_id": 2,
  "brand_name": "adidas",
  "brand_logo_normal": "",
- "brand_logo_selected" : "",
+ "brand_logo_selected": "",
  "brand_color_normal": "0xff00ff00",
  "brand_color_selected": "0xff0f00f0"
  }
