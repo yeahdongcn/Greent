@@ -90,7 +90,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Uko-7f-ff8" kind="push" id="t7n-OV-ENI"/>
+                                    <segue destination="Ehx-le-RGZ" kind="push" id="cF2-Sb-EHH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -106,24 +106,26 @@
             </objects>
             <point key="canvasLocation" x="2439" y="1"/>
         </scene>
-        <!--Greent View Controller-->
-        <scene sceneID="dHP-DR-b20">
+        <!--GLKit View Controller-->
+        <scene sceneID="DYW-G3-SfU">
             <objects>
-                <viewController id="Uko-7f-ff8" customClass="RSGreentViewController" sceneMemberID="viewController">
+                <glkViewController autoresizesArchivedViewToFullSize="NO" preferredFramesPerSecond="30" id="Ehx-le-RGZ" customClass="RSGreentViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hDl-aG-eK3"/>
-                        <viewControllerLayoutGuide type="bottom" id="VEs-lw-xPi"/>
+                        <viewControllerLayoutGuide type="top" id="cYO-xU-Q9h"/>
+                        <viewControllerLayoutGuide type="bottom" id="SqK-KK-Xsr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="eNR-Yr-et6" customClass="UIImageView">
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vIR-Fi-eMQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="xKv-87-VXN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vjq-xI-N5Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <connections>
+                            <outlet property="delegate" destination="Ehx-le-RGZ" id="5cM-54-fMf"/>
+                        </connections>
+                    </glkView>
+                    <navigationItem key="navigationItem" id="KcI-9b-aVe"/>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2b-I4-vlC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3096" y="1"/>
+            <point key="canvasLocation" x="3051" y="1"/>
         </scene>
         <!--Right View Controller-->
         <scene sceneID="CpD-1A-9Aw">

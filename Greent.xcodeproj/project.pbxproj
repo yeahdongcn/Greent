@@ -18,7 +18,7 @@
 		D07B8CB717C364C8001899DF /* RSCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CB617C364C8001899DF /* RSCenterViewController.m */; };
 		D07B8CBA17C364D2001899DF /* RSLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CB917C364D2001899DF /* RSLeftViewController.m */; };
 		D07B8CBD17C364DB001899DF /* RSRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CBC17C364DB001899DF /* RSRightViewController.m */; };
-		D07B8CC617C4B038001899DF /* RSGreentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CC517C4B038001899DF /* RSGreentViewController.m */; };
+		D07B8CC617C4B038001899DF /* RSGreentViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CC517C4B038001899DF /* RSGreentViewController.mm */; };
 		D0B19ABD17C1B373007CBD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B19ABC17C1B373007CBD64 /* Foundation.framework */; };
 		D0B19ABF17C1B373007CBD64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B19ABE17C1B373007CBD64 /* CoreGraphics.framework */; };
 		D0B19AC117C1B373007CBD64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B19AC017C1B373007CBD64 /* UIKit.framework */; };
@@ -33,6 +33,7 @@
 		D0B19AE617C1B373007CBD64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B19AE417C1B373007CBD64 /* InfoPlist.strings */; };
 		D0B19AE817C1B373007CBD64 /* GreentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B19AE717C1B373007CBD64 /* GreentTests.m */; };
 		D0BC80E017C6EC72003E114B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC80DF17C6EC72003E114B /* UIColor+Hex.m */; };
+		D0BF9989183B5BD8005FECC4 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BF9988183B5BD8005FECC4 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +68,7 @@
 		D07B8CBB17C364DB001899DF /* RSRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRightViewController.h; sourceTree = "<group>"; };
 		D07B8CBC17C364DB001899DF /* RSRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRightViewController.m; sourceTree = "<group>"; };
 		D07B8CC417C4B038001899DF /* RSGreentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGreentViewController.h; sourceTree = "<group>"; };
-		D07B8CC517C4B038001899DF /* RSGreentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGreentViewController.m; sourceTree = "<group>"; };
+		D07B8CC517C4B038001899DF /* RSGreentViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RSGreentViewController.mm; sourceTree = "<group>"; };
 		D0B19AB917C1B373007CBD64 /* Greent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B19ABC17C1B373007CBD64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0B19ABE17C1B373007CBD64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +88,8 @@
 		D0B19AE717C1B373007CBD64 /* GreentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreentTests.m; sourceTree = "<group>"; };
 		D0BC80DE17C6EC72003E114B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		D0BC80DF17C6EC72003E114B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		D0BF9984183B57E7005FECC4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D0BF9988183B5BD8005FECC4 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BF9989183B5BD8005FECC4 /* GLKit.framework in Frameworks */,
 				D0B19ABF17C1B373007CBD64 /* CoreGraphics.framework in Frameworks */,
 				D0B19AC117C1B373007CBD64 /* UIKit.framework in Frameworks */,
 				D0B19ABD17C1B373007CBD64 /* Foundation.framework in Frameworks */,
@@ -137,6 +141,8 @@
 		D0B19ABB17C1B373007CBD64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0BF9988183B5BD8005FECC4 /* GLKit.framework */,
+				D0BF9984183B57E7005FECC4 /* OpenGLES.framework */,
 				D0B19ABC17C1B373007CBD64 /* Foundation.framework */,
 				D0B19ABE17C1B373007CBD64 /* CoreGraphics.framework */,
 				D0B19AC017C1B373007CBD64 /* UIKit.framework */,
@@ -167,7 +173,7 @@
 				D0513AC917CAF7560088EF1D /* RSRightViewCell.h */,
 				D0513ACA17CAF7560088EF1D /* RSRightViewCell.m */,
 				D07B8CC417C4B038001899DF /* RSGreentViewController.h */,
-				D07B8CC517C4B038001899DF /* RSGreentViewController.m */,
+				D07B8CC517C4B038001899DF /* RSGreentViewController.mm */,
 				D0B19AD417C1B373007CBD64 /* Images.xcassets */,
 				D0B19AC317C1B373007CBD64 /* Supporting Files */,
 				D0BC80DE17C6EC72003E114B /* UIColor+Hex.h */,
@@ -344,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D07B8CC617C4B038001899DF /* RSGreentViewController.m in Sources */,
+				D07B8CC617C4B038001899DF /* RSGreentViewController.mm in Sources */,
 				D07B8CBA17C364D2001899DF /* RSLeftViewController.m in Sources */,
 				D0513ACB17CAF7560088EF1D /* RSRightViewCell.m in Sources */,
 				D0513AC817CAF73E0088EF1D /* RSLeftViewCell.m in Sources */,

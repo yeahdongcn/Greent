@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 P.D.Q. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
 
-@interface RSGreentViewController : UIViewController
+@interface RSGreentViewController : GLKViewController
 
 @end
