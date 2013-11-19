@@ -8,11 +8,7 @@
 
 #import "RSGreentViewController.h"
 
-#import "GPUImage.h"
-
 @interface RSGreentViewController ()
-
-@property (nonatomic, strong) GPUImageVideoCamera *videoCamera;
 
 @end
 
@@ -31,29 +27,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.videoCamera = [[GPUImageVideoCamera alloc] initWithSessionPreset:AVCaptureSessionPreset640x480 cameraPosition:AVCaptureDevicePositionBack];
-    self.videoCamera.outputImageOrientation = UIInterfaceOrientationPortrait;
-    
-    GPUImageFilter *customFilter = [[GPUImageSepiaFilter alloc] init];
-    [self.videoCamera addTarget:customFilter];
-    
-    GPUImageView *filterView = (GPUImageView *)self.view;
-    filterView.fillMode = kGPUImageFillModePreserveAspectRatioAndFill;
-    [customFilter addTarget:filterView];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    [self.videoCamera startCameraCapture];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
-    
-    [self.videoCamera stopCameraCapture];
 }
 
 - (void)didReceiveMemoryWarning

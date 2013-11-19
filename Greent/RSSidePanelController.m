@@ -42,4 +42,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)stylePanel:(UIView *)panel
+{
+    panel.clipsToBounds = YES;
+}
+
 @end

@@ -4,70 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-GPUImage.xcscheme</key>
+		<key>Pods-AFNetworking.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-JASidePanels.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-OpenCV.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3820F6391B5343A8963E9A28</key>
+		<key>5ECD77FBA6EB47E49B66C072</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>546A7353BE8648F49EF1D007</key>
+		<key>87F9F9D87D4D4057954ED5C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6FDF888160034BD0B0DAEF62</key>
+		<key>8B9E372EAE924448A3815D2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A797CAC426F41CF954FB3E7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>91DFBC0980AE4CC6AC6ADDEB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A33BACB13F51476C925E8042</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C09EE7AD57A54498A4C4B3AB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F2DE6D86EA09475F888E9E9C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FDCAE5988AB940EAB4E8E4AA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FFCC51909D2D4A9887F9576D</key>
+		<key>A8CC07BA194748DD82B95FFF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
