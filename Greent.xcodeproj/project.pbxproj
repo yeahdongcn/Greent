@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		88164B4C95CC439CBAC209A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0B44EC23164B49A7BFE4B3 /* libPods.a */; };
+		D0087819183C5AD900330BA3 /* RSGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0087818183C5AD900330BA3 /* RSGLView.m */; };
+		D0087824183C96B200330BA3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BF9984183B57E7005FECC4 /* OpenGLES.framework */; };
+		D00F090F183C9B480073844B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BF9988183B5BD8005FECC4 /* GLKit.framework */; };
+		D00F0961183CAA380073844B /* Shader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = D00F095F183CAA380073844B /* Shader.fsh */; };
+		D00F0962183CAA380073844B /* Shader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = D00F0960183CAA380073844B /* Shader.vsh */; };
+		D00F0963183CAA400073844B /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D00F095F183CAA380073844B /* Shader.fsh */; };
+		D00F0964183CAA400073844B /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D00F0960183CAA380073844B /* Shader.vsh */; };
+		D00F0965183DF19F0073844B /* RSMainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D008781B183C899600330BA3 /* RSMainViewController.mm */; };
 		D0513AC517CAF31D0088EF1D /* RSCenterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513AC417CAF31D0088EF1D /* RSCenterViewCell.m */; };
 		D0513AC817CAF73E0088EF1D /* RSLeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513AC717CAF73E0088EF1D /* RSLeftViewCell.m */; };
 		D0513ACB17CAF7560088EF1D /* RSRightViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513ACA17CAF7560088EF1D /* RSRightViewCell.m */; };
-		D0513AD117CB40540088EF1D /* Brands.json in Resources */ = {isa = PBXBuildFile; fileRef = D0513AD017CB3E7F0088EF1D /* Brands.json */; };
-		D0513AD417CB44160088EF1D /* RSBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513AD317CB44160088EF1D /* RSBrand.m */; };
-		D0513AD617CDA88E0088EF1D /* Versions.json in Resources */ = {isa = PBXBuildFile; fileRef = D0513AD517CDA88E0088EF1D /* Versions.json */; };
 		D07B8CB417C35D79001899DF /* RSSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CB317C35D79001899DF /* RSSidePanelController.m */; };
 		D07B8CB717C364C8001899DF /* RSCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CB617C364C8001899DF /* RSCenterViewController.m */; };
 		D07B8CBA17C364D2001899DF /* RSLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B8CB917C364D2001899DF /* RSLeftViewController.m */; };
@@ -33,7 +38,6 @@
 		D0B19AE617C1B373007CBD64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B19AE417C1B373007CBD64 /* InfoPlist.strings */; };
 		D0B19AE817C1B373007CBD64 /* GreentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B19AE717C1B373007CBD64 /* GreentTests.m */; };
 		D0BC80E017C6EC72003E114B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC80DF17C6EC72003E114B /* UIColor+Hex.m */; };
-		D0BF9989183B5BD8005FECC4 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BF9988183B5BD8005FECC4 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,16 +53,20 @@
 /* Begin PBXFileReference section */
 		2FCFBB3A9CF0485788DFA84B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		8E0B44EC23164B49A7BFE4B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0087817183C5AD900330BA3 /* RSGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGLView.h; sourceTree = "<group>"; };
+		D0087818183C5AD900330BA3 /* RSGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGLView.m; sourceTree = "<group>"; };
+		D008781A183C899600330BA3 /* RSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMainViewController.h; sourceTree = "<group>"; };
+		D008781B183C899600330BA3 /* RSMainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RSMainViewController.mm; sourceTree = "<group>"; };
+		D00F0910183CA16D0073844B /* RSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		D00F0911183CA16D0073844B /* RSViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RSViewController.mm; sourceTree = "<group>"; };
+		D00F095F183CAA380073844B /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		D00F0960183CAA380073844B /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 		D0513AC317CAF31D0088EF1D /* RSCenterViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCenterViewCell.h; sourceTree = "<group>"; };
 		D0513AC417CAF31D0088EF1D /* RSCenterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCenterViewCell.m; sourceTree = "<group>"; };
 		D0513AC617CAF73E0088EF1D /* RSLeftViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLeftViewCell.h; sourceTree = "<group>"; };
 		D0513AC717CAF73E0088EF1D /* RSLeftViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLeftViewCell.m; sourceTree = "<group>"; };
 		D0513AC917CAF7560088EF1D /* RSRightViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRightViewCell.h; sourceTree = "<group>"; };
 		D0513ACA17CAF7560088EF1D /* RSRightViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRightViewCell.m; sourceTree = "<group>"; };
-		D0513AD017CB3E7F0088EF1D /* Brands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Brands.json; sourceTree = "<group>"; };
-		D0513AD217CB44160088EF1D /* RSBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBrand.h; sourceTree = "<group>"; };
-		D0513AD317CB44160088EF1D /* RSBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBrand.m; sourceTree = "<group>"; };
-		D0513AD517CDA88E0088EF1D /* Versions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Versions.json; sourceTree = "<group>"; };
 		D07B8CB217C35D79001899DF /* RSSidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSidePanelController.h; sourceTree = "<group>"; };
 		D07B8CB317C35D79001899DF /* RSSidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSidePanelController.m; sourceTree = "<group>"; };
 		D07B8CB517C364C8001899DF /* RSCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCenterViewController.h; sourceTree = "<group>"; };
@@ -97,7 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BF9989183B5BD8005FECC4 /* GLKit.framework in Frameworks */,
+				D00F090F183C9B480073844B /* GLKit.framework in Frameworks */,
+				D0087824183C96B200330BA3 /* OpenGLES.framework in Frameworks */,
 				D0B19ABF17C1B373007CBD64 /* CoreGraphics.framework in Frameworks */,
 				D0B19AC117C1B373007CBD64 /* UIKit.framework in Frameworks */,
 				D0B19ABD17C1B373007CBD64 /* Foundation.framework in Frameworks */,
@@ -155,6 +164,8 @@
 		D0B19AC217C1B373007CBD64 /* Greent */ = {
 			isa = PBXGroup;
 			children = (
+				D00F095F183CAA380073844B /* Shader.fsh */,
+				D00F0960183CAA380073844B /* Shader.vsh */,
 				D0B19ACB17C1B373007CBD64 /* RSAppDelegate.h */,
 				D0B19ACC17C1B373007CBD64 /* RSAppDelegate.m */,
 				D0B19ACE17C1B373007CBD64 /* Main.storyboard */,
@@ -178,10 +189,12 @@
 				D0B19AC317C1B373007CBD64 /* Supporting Files */,
 				D0BC80DE17C6EC72003E114B /* UIColor+Hex.h */,
 				D0BC80DF17C6EC72003E114B /* UIColor+Hex.m */,
-				D0513AD217CB44160088EF1D /* RSBrand.h */,
-				D0513AD317CB44160088EF1D /* RSBrand.m */,
-				D0513AD017CB3E7F0088EF1D /* Brands.json */,
-				D0513AD517CDA88E0088EF1D /* Versions.json */,
+				D0087817183C5AD900330BA3 /* RSGLView.h */,
+				D0087818183C5AD900330BA3 /* RSGLView.m */,
+				D008781A183C899600330BA3 /* RSMainViewController.h */,
+				D008781B183C899600330BA3 /* RSMainViewController.mm */,
+				D00F0910183CA16D0073844B /* RSViewController.h */,
+				D00F0911183CA16D0073844B /* RSViewController.mm */,
 			);
 			path = Greent;
 			sourceTree = "<group>";
@@ -294,11 +307,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0513AD117CB40540088EF1D /* Brands.json in Resources */,
+				D00F0963183CAA400073844B /* Shader.fsh in Resources */,
+				D00F0964183CAA400073844B /* Shader.vsh in Resources */,
 				D0B19AD517C1B373007CBD64 /* Images.xcassets in Resources */,
 				D0B19AC717C1B373007CBD64 /* InfoPlist.strings in Resources */,
 				D0B19AD017C1B373007CBD64 /* Main.storyboard in Resources */,
-				D0513AD617CDA88E0088EF1D /* Versions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,15 +363,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00F0965183DF19F0073844B /* RSMainViewController.mm in Sources */,
+				D00F0962183CAA380073844B /* Shader.vsh in Sources */,
 				D07B8CC617C4B038001899DF /* RSGreentViewController.mm in Sources */,
 				D07B8CBA17C364D2001899DF /* RSLeftViewController.m in Sources */,
+				D0087819183C5AD900330BA3 /* RSGLView.m in Sources */,
 				D0513ACB17CAF7560088EF1D /* RSRightViewCell.m in Sources */,
 				D0513AC817CAF73E0088EF1D /* RSLeftViewCell.m in Sources */,
 				D07B8CB717C364C8001899DF /* RSCenterViewController.m in Sources */,
 				D07B8CB417C35D79001899DF /* RSSidePanelController.m in Sources */,
+				D00F0961183CAA380073844B /* Shader.fsh in Sources */,
 				D0513AC517CAF31D0088EF1D /* RSCenterViewCell.m in Sources */,
 				D0B19AC917C1B373007CBD64 /* main.m in Sources */,
-				D0513AD417CB44160088EF1D /* RSBrand.m in Sources */,
 				D0BC80E017C6EC72003E114B /* UIColor+Hex.m in Sources */,
 				D07B8CBD17C364DB001899DF /* RSRightViewController.m in Sources */,
 				D0B19ACD17C1B373007CBD64 /* RSAppDelegate.m in Sources */,
