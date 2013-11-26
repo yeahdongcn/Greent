@@ -35,8 +35,8 @@
     if ([keyPath isEqualToString:@"border"]) {
         self.border.backgroundColor = [UIColor whiteColor];
         
-        self.border.layer.borderColor = [UIColor lightGrayColor].CGColor;
-        self.border.layer.borderWidth = 1;
+        self.border.layer.borderColor = [UIColor redColor].CGColor;
+        self.border.layer.borderWidth = 2;
     }
 }
 

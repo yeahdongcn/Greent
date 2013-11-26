@@ -9,12 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JASidePanels.xcscheme</key>
+		<key>Pods-GPUImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-OpenCV.xcscheme</key>
+		<key>Pods-JASidePanels.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5ECD77FBA6EB47E49B66C072</key>
+		<key>3E19D4100101401E928D67E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>87F9F9D87D4D4057954ED5C6</key>
+		<key>680C83F8A2D345B496C4864C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B9E372EAE924448A3815D2E</key>
+		<key>D00946738E354D31BE8EC277</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A8CC07BA194748DD82B95FFF</key>
+		<key>E976F9D0DC3447C4B8F9FD73</key>
 		<dict>
 			<key>primary</key>
 			<true/>

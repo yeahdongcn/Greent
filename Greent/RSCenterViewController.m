@@ -33,9 +33,9 @@
     
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
-    self.navigationController.navigationBar.translucent = NO;
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithARGBHex:0xFF40A556];
+//    self.navigationController.navigationBar.translucent = NO;
+//    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+//    self.navigationController.navigationBar.barTintColor = [UIColor colorWithARGBHex:0xFF40A556];
 }
 
 - (void)didReceiveMemoryWarning
