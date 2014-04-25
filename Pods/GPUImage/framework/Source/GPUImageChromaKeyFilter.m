@@ -30,6 +30,10 @@ NSString *const kGPUImageChromaKeyFragmentShaderString = SHADER_STRING
      //     float blendValue = 1.0 - smoothstep(thresholdSensitivity - smoothing, thresholdSensitivity , abs(Cr - maskCr) + abs(Cb - maskCb));
      float blendValue = smoothstep(thresholdSensitivity, thresholdSensitivity + smoothing, distance(vec2(Cr, Cb), vec2(maskCr, maskCb)));
      gl_FragColor = vec4(textureColor.rgb, textureColor.a * blendValue);
+     
+     if (gl_FragColor.a == 0.0) {
+         gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+     }
  }
 );
 #else

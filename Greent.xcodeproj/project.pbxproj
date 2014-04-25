@@ -10,6 +10,7 @@
 		88164B4C95CC439CBAC209A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0B44EC23164B49A7BFE4B3 /* libPods.a */; };
 		D00F096C183F413C0073844B /* RSVideoFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00F096B183F413C0073844B /* RSVideoFilterViewController.m */; };
 		D00F09701840315C0073844B /* RSCameraRotator.m in Sources */ = {isa = PBXBuildFile; fileRef = D00F096F1840315C0073844B /* RSCameraRotator.m */; };
+		D00F09C31845D5990073844B /* RSVideoFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D00F09C21845D5990073844B /* RSVideoFilter.m */; };
 		D0513AC517CAF31D0088EF1D /* RSCenterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513AC417CAF31D0088EF1D /* RSCenterViewCell.m */; };
 		D0513AC817CAF73E0088EF1D /* RSLeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513AC717CAF73E0088EF1D /* RSLeftViewCell.m */; };
 		D0513ACB17CAF7560088EF1D /* RSRightViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0513ACA17CAF7560088EF1D /* RSRightViewCell.m */; };
@@ -50,6 +51,8 @@
 		D00F096B183F413C0073844B /* RSVideoFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVideoFilterViewController.m; sourceTree = "<group>"; };
 		D00F096E1840315C0073844B /* RSCameraRotator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCameraRotator.h; sourceTree = "<group>"; };
 		D00F096F1840315C0073844B /* RSCameraRotator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCameraRotator.m; sourceTree = "<group>"; };
+		D00F09C11845D5990073844B /* RSVideoFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSVideoFilter.h; sourceTree = "<group>"; };
+		D00F09C21845D5990073844B /* RSVideoFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVideoFilter.m; sourceTree = "<group>"; };
 		D0513AC317CAF31D0088EF1D /* RSCenterViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCenterViewCell.h; sourceTree = "<group>"; };
 		D0513AC417CAF31D0088EF1D /* RSCenterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCenterViewCell.m; sourceTree = "<group>"; };
 		D0513AC617CAF73E0088EF1D /* RSLeftViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLeftViewCell.h; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				D00F096B183F413C0073844B /* RSVideoFilterViewController.m */,
 				D00F096E1840315C0073844B /* RSCameraRotator.h */,
 				D00F096F1840315C0073844B /* RSCameraRotator.m */,
+				D00F09C11845D5990073844B /* RSVideoFilter.h */,
+				D00F09C21845D5990073844B /* RSVideoFilter.m */,
 			);
 			path = Greent;
 			sourceTree = "<group>";
@@ -349,6 +354,7 @@
 				D07B8CB417C35D79001899DF /* RSSidePanelController.m in Sources */,
 				D0513AC517CAF31D0088EF1D /* RSCenterViewCell.m in Sources */,
 				D0B19AC917C1B373007CBD64 /* main.m in Sources */,
+				D00F09C31845D5990073844B /* RSVideoFilter.m in Sources */,
 				D0BC80E017C6EC72003E114B /* UIColor+Hex.m in Sources */,
 				D07B8CBD17C364DB001899DF /* RSRightViewController.m in Sources */,
 				D0B19ACD17C1B373007CBD64 /* RSAppDelegate.m in Sources */,

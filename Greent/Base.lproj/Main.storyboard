@@ -37,7 +37,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CenterViewCell" rowHeight="160" id="xt3-EW-dk1" customClass="RSCenterViewCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="160"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="160"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xt3-EW-dk1" id="UXd-8s-nv8">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
@@ -256,7 +256,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="kGs-ah-0eD" kind="relationship" relationship="rootViewController" id="Wz4-fm-du8"/>
+                        <segue destination="2cI-IR-Bfc" kind="relationship" relationship="rootViewController" id="S2g-Gk-rEF"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bh3-TU-x9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -269,4 +269,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="S2g-Gk-rEF"/>
+    </inferredMetricsTieBreakers>
 </document>
